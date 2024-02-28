@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaTrash, FaEdit } from 'react-icons/fa';
 
+
 function Permisos() {
   return (
     <div className="bg-gray-200 p-4">
@@ -63,9 +64,6 @@ function Permisos() {
 </div>
     </div>
 
-
-    
-    
   );
 }
 
