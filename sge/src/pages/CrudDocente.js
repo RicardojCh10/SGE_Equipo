@@ -1,10 +1,15 @@
 import React from 'react';
 import { FaTrash, FaEdit } from 'react-icons/fa';
+import Navbar from "../components/navbar";
+
 
 function CrudDocente() {
     return (
         <>
-            <div className="bg-[#325b87]">
+            <Navbar></Navbar>
+
+            <div className="bg-[#7ea3ca]">
+
                 <h1 className="text-3xl font-bold text-center text-white">Crud Docente</h1>
             </div>
 
