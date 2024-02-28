@@ -12,7 +12,7 @@ function Login() {
               <img src={Logo} alt="ut_logo" />
             </div>
             <div className="items-center m-auto text-center">
-              <h1 className="montserrat-alternates-semibold text-3xl font-bold my-2 pt-5">
+              <h1 className="montserrat-alternates-semibold text-3xl font-bold m-0 pt-5">
                 Sistema de Gestión de Estadías
               </h1>
               <h2 className="inter-variacion text-2xl ">
@@ -29,7 +29,7 @@ function Login() {
                   tipo="password"
                   descripcion="Ingresa tu contraseña"
                 />
-                <button className="items-center bg-[#5FC8BE] rounded-xl  font-bold h-full w-[20%] px-4 text-[#18496A]">
+                <button className="items-center bg-[#5FC8BE] rounded-xl  font-bold h-full w-[50%] px-4 text-[#18496A]">
                   INGRESAR
                 </button>
               </div>
